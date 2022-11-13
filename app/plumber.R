@@ -2,6 +2,6 @@
 
 #* Test Func
 #* @get /test
-function(msg=""){
+function(){
   list("deployed sucessfully")
 }

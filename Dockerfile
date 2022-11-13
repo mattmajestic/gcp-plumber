@@ -2,4 +2,4 @@ FROM rstudio/plumber
 
 RUN R -e "install.packages(c('broom','plumber'))"
 
-CMD ["/app/plumber.R"]
+CMD ["/app/run_api.R"]
